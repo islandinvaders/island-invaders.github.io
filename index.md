@@ -3,7 +3,7 @@
 ## Table of contents
 
 * [Overview](#overview)
-* [Users](#user)
+* [Users](#users)
 * [Pages](#pages)
 
 ## Overview
