@@ -4,6 +4,6 @@ show_downloads: false
 theme: jekyll-theme-merlot
 github:
   is_project_page: true
-  repository_url: https://islandinvaders
+  repository_url: https://github.com/islandinvaders
 gems:
   - jekyll-mentions
