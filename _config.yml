@@ -1,0 +1,9 @@
+title: Island Invaders
+google_analytics:
+show_downloads: false
+theme: jekyll-theme-merlot
+github:
+  is_project_page: true
+  repository_url: https://islandinvaders
+gems:
+  - jekyll-mentions
