@@ -18,13 +18,12 @@ The invasive species tracker aims to address these challenges by establishing a 
 - Scientific Community
 - Organizations That Manage Invasive Species
 - General Public
-<br/>
-
-### Example Users
-A visiting tourist goes on a hike and finds an unfamiliar plant while on a trail, using the app to identify and report a potential invasive species sighting.
+  
+### Example Users:
+- A visiting tourist goes on a hike and finds an unfamiliar plant while on a trail, using the app to identify and report a potential invasive species sighting.
 Educators and students can use the app to actively engage with and learn more about the local ecology and caring for our ecosystem, engaging students in real-world science and environmental stewardship in their own backyards.
 <br/>
-A local conservation organization can utilize app data to coordinate and organize community events to remove invasive species and track progress.
+- A local conservation organization can utilize app data to coordinate and organize community events to remove invasive species and track progress.
 Researchers studying invasive species trends can analyze data collected from the platform to identify potential problems and prioritize management efforts and investment.
 
 ## Pages
