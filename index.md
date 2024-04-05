@@ -49,9 +49,11 @@ Invasive species pose a significant threat to local ecosystems, causing ecologic
 <img src="doc/post.jpg">
   - Picture/Entries Upload (example: Photo, Date, Species, Location and Island): Users can upload and create data entries
   - Edit Entries (example: modify information, indicate whether the organism has been removed)
+
 ### Profile/Badges Page
 - Collect badges or virtual critters for quality contributions, see stats to check your positive impact
 <img src="doc/profile.jpg">
+
 ### About Us Page
 - Information about the team and our overall message
 <img src="doc/about_us.jpg">
