@@ -1,19 +1,19 @@
 # Island Invaders
 
 ## Members
-<ul>
-<li>Natalie Ching</li>
-<li>Allison Ebsen</li>
-<li>Lily Enanoria</li>
-<li>Myra Ortigosa</li>
-<li>Gian Panoy</li>
-</ul>
+
+* [Natalie Ching](#natalie-ching)
+* [Allison Ebsen](#allison-ebsen)
+* [Lily Enanoria](#lily-enanoria)
+* [Myra Ortigosa](#myra-ortigosa)
+* [Gian Panoy](#gian-panoy)
 
 ## Table of contents
 
 * [Overview](#overview)
 * [Users](#users)
 * [Pages](#pages)
+* [Beyond Basics](#beyond-basics-possibly-ambitious)
 * [Development History](#development-history)
 * [About the Team](#about-the-team)
 
@@ -71,7 +71,7 @@ This project is developed in a series of milestones:
 The team is made up of five computer science undergraduate students at the University of Hawai'i at Mānoa.
 ### [Natalie Ching](https://www.linkedin.com/in/natalie-ching-96749a253/)
 #### 2nd Year BS in CS Data Science
-Natalie grew up in Hawai’i and is very interested in the native wildlife. She also does invasive seaweed clean ups in Oahu and replanting projects. Natalie wants to work in data science for a government agency.
+Natalie grew up in Hawai’i and is very interested in the native wildlife. She also does invasive seaweed clean-ups in Oahu and replanting projects. Natalie wants to work in data science for a government agency.
 
 Fun Fact: Natalie is 5th generation in Hawai’i, and she can touch her elbows behind her head.
 
@@ -81,11 +81,11 @@ Fun Fact: Natalie is 5th generation in Hawai’i, and she can touch her elbows b
 
 Allison works in Agrosecurity and Agricultural Engineering, and she values the interconnectedness between the environment and our health. She’s currently exploring careers in computational biology.
 
-Fun Fact: A childhood game that she loves is Pokemon Mystery Dungeon: Explorers of Sky.
+Fun Fact: A childhood game that Allison loves is Pokemon Mystery Dungeon: Explorers of Sky.
 
 
 ### [Lily Enanoria](https://www.linkedin.com/in/lily-enanoria-0944aa2aa/)
-#### 2nd Year BS in CS Cyber Security
+#### 2nd Year BS in CS Security Science
 Lily grew up going to the beach with her ‘ohana, and she loves interacting with nature. She loves opportunities to restore the ʻāina. Lily aspires to work in cybersecurity for the government.
 
 Fun Fact: Lily’s goal is to live in Japan one day.
@@ -93,15 +93,15 @@ Fun Fact: Lily’s goal is to live in Japan one day.
 
 ### [Myra Ortigosa](https://www.linkedin.com/in/myra-angelica-ortigosa-5661a4275/)
 #### 2nd Year BS in CS Data Science
-Myra cares about the environment and engages in community beach clean ups, and she aspires to become a data scientist or data analyst.
+Myra cares about the environment and engages in community beach clean-ups, and she aspires to become a data scientist or data analyst.
 
 Fun Fact: Myra recently got a takoyaki machine and wants to use it one day when she's not busy.
 
 
 ### [Gian Panoy](https://www.linkedin.com/in/gianpanoy/)
 #### 2nd Year BS in CS General
-Gian is pursuing a career in software engineering. He is of Native Hawaiian decesent and cares about the community and life here.
+Gian is pursuing a career in software engineering. He is of Native Hawaiian descent and cares about the community and life here.
 
-Fun Fact: Gian has visited Canada, South Korea, and the Philippines.
+Fun Fact: Gian (aka Mr. Worldwide) has visited Canada, South Korea, and the Philippines.
 
 [Team Contract](https://docs.google.com/document/d/10awsj1BGBtRuBudM55MgN057PxomPFo33-s55Cq8MKY/edit?usp=sharing)
