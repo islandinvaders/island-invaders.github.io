@@ -40,11 +40,12 @@ Invasive species pose a significant threat to local ecosystems, causing ecologic
 ## Pages
 - Landing: Welcome users and provide an overview of the project and its goals
 <img src="doc/landing_page.jpg">
-- Login
+  - Login
 - Picture/Entries Upload (example: Photo, Date, Species, Location and Island): Users can upload and create data entries
 - Edit Entries (example: modify information, indicate whether the organism has been removed)
 - Database of Known Invasive Species: An organized database of invasive species, including information such as identification tips, distribution maps, ecological impacts
-<img src="doc/post.jpg">
+- Posts: Discussion board for users
+  <img src="doc/post.jpg">
 - Profile/Badges Page: Collect badges or virtual critters for quality contributions, see stats to check your positive impact
 <img src="doc/profile.jpg">
 - About Us
