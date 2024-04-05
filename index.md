@@ -92,7 +92,7 @@ Fun Fact: Myra recently got a takoyaki machine and wants to use it one day when 
 
 ### [Gian Panoy](https://www.linkedin.com/in/gianpanoy/)
 #### 2nd Year BS in CS General
-Gian is pursuing a career in software engineering.
+Gian is pursuing a career in software engineering. He is of Native Hawaiian decesent and cares about the community and life here.
 
 Fun Fact: Gian has visited Canada, South Korea, and the Philippines.
 
