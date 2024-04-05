@@ -14,6 +14,7 @@
 * [Overview](#overview)
 * [Users](#users)
 * [Pages](#pages)
+* [Development History](#development-history)
 * [About the Team](#about-the-team)
 
 ## Overview
@@ -59,14 +60,20 @@ Invasive species pose a significant threat to local ecosystems, causing ecologic
 - Explore the use of machine learning algorithms to improve species identification accuracy and efficiency AND/OR assess the effectiveness of implemented strategies or suggest other plans of action
 - Integrate with GIS or other map visualization
 
+## Development History
+This project is developed in a series of milestones:
+
+- [M1](https://github.com/orgs/islandinvaders/projects/2)
+
+
 ## About the Team
 
+The team is made up of five computer science undergraduate students at the University of Hawai'i at Mānoa.
 ### [Natalie Ching](https://www.linkedin.com/in/natalie-ching-96749a253/)
 #### 2nd Year BS in CS Data Science
 Natalie grew up in Hawai’i and is very interested in the native wildlife. She also does invasive seaweed clean ups in Oahu and replanting projects. Natalie wants to work in data science for a government agency.
 
 Fun Fact: Natalie is 5th generation in Hawai’i, and she can touch her elbows behind her head.
-
 
 
 ### [Allison Ebsen](https://www.linkedin.com/in/allison-ebsen/)
@@ -97,3 +104,4 @@ Gian is pursuing a career in software engineering. He is of Native Hawaiian dece
 
 Fun Fact: Gian has visited Canada, South Korea, and the Philippines.
 
+[Team Contract](https://docs.google.com/document/d/10awsj1BGBtRuBudM55MgN057PxomPFo33-s55Cq8MKY/edit?usp=sharing)
