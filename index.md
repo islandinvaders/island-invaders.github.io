@@ -39,20 +39,27 @@ Invasive species pose a significant threat to local ecosystems, causing ecologic
 - Researchers studying invasive species trends can analyze data collected from the platform to identify potential problems and prioritize management efforts and investment.
 
 ## Pages
-- Landing: Welcome users and provide an overview of the project and its goals
+### Landing Page
+- Welcome users and provide an overview of the project and its goals
 <img src="doc/landing_page.jpg">
-  - Login
-- Picture/Entries Upload (example: Photo, Date, Species, Location and Island): Users can upload and create data entries
-- Edit Entries (example: modify information, indicate whether the organism has been removed)
-- Database of Known Invasive Species: An organized database of invasive species, including information such as identification tips, distribution maps, ecological impacts
-- Posts: Discussion board for users
-  <img src="doc/post.jpg">
-- Profile/Badges Page: Collect badges or virtual critters for quality contributions, see stats to check your positive impact
+  - Login/Sign Up
+
+### Posts Page
+- Discussion board for users
+<img src="doc/post.jpg">
+  - Picture/Entries Upload (example: Photo, Date, Species, Location and Island): Users can upload and create data entries
+  - Edit Entries (example: modify information, indicate whether the organism has been removed)
+### Profile/Badges Page
+- Collect badges or virtual critters for quality contributions, see stats to check your positive impact
 <img src="doc/profile.jpg">
-- About Us
+### About Us Page
+- Information about the team and our overall message
 <img src="doc/about_us.jpg">
-- Educational Resources: Carefully curated content such as articles, videos, or infographics to help educate users about invasive species
+
+### Educational Resources Page
+- Carefully curated content such as articles, videos, or infographics to help educate users about invasive species
 <img src="doc/resources.jpg">
+  - Database of Known Invasive Species: An organized database of invasive species, including information such as identification tips, distribution maps, ecological impacts
 
 ## Beyond Basics (Possibly Ambitious)
 - Make data entries exportable as an Excel Spreadsheet (csv) so that researchers can easily work with the data
