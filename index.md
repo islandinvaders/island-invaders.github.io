@@ -40,28 +40,40 @@ Invasive species pose a significant threat to local ecosystems, causing ecologic
 
 ## Pages
 ### Landing Page
-- Welcome users and provide an overview of the project and its goals
+- Welcome users and provide an overview of the project and goals
+
 <img src="doc/landing_page.jpg">
-  - Login/Sign Up
+
+  - Click on the “Login” button in the upper right corner of the navbar, then select “Sign in” to go to the following page and login. You will have an option to select "Sign Up" and register as a new user.
 
 ### Posts Page
 - Discussion board for users
+
 <img src="doc/post.jpg">
+
   - Picture/Entries Upload (example: Photo, Date, Species, Location and Island): Users can upload and create data entries
-  - Edit Entries (example: modify information, indicate whether the organism has been removed)
+  - Edit Entries (example: modify information)
+  - Delete Entries (example: indicate whether the post is removed)
 
 ### Profile/Badges Page
-- Collect badges or virtual critters for quality contributions, see stats to check your positive impact
+- After clicking "Profiles" in the Navbar, you are taken to the profiles page. This presents a form where you can complete and/or update your personal profile:
+  - Name
+  - Profile Picture
+  - Biography
+
 <img src="doc/profile.jpg">
 
 ### About Us Page
 - Information about the team and our overall message
+
 <img src="doc/about_us.jpg">
 
 ### Educational Resources Page
 - Carefully curated content such as articles, videos, or infographics to help educate users about invasive species
+
 <img src="doc/resources.jpg">
-  - Database of Known Invasive Species: An organized database of invasive species, including information such as identification tips, distribution maps, ecological impacts
+
+- Database of Known Invasive Species: An organized database of invasive species, including information such as identification tips, distribution maps, ecological impacts
 
 ## Beyond Basics (Possibly Ambitious)
 - Make data entries exportable as an Excel Spreadsheet (csv) so that researchers can easily work with the data
