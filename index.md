@@ -55,13 +55,16 @@ Invasive species pose a significant threat to local ecosystems, causing ecologic
   - Edit Entries (example: modify information)
   - Delete Entries (example: indicate whether the post is removed)
 
-### Profile/Badges Page
-- After clicking "Profiles" in the Navbar, you are taken to the profiles page. This presents a form where you can complete and/or update your personal profile:
-  - Name
-  - Profile Picture
+### Profile Page
+- After clicking "Profiles" in the Navbar, you are taken to the profiles page. This presents a view only profile which the user can only see and all the default data shows up on the profiles page.
+- Different fields that can be edited:
+  - First name
+  - Last name
+  - Email
   - Biography
+  - Interests
 
-<img src="doc/profile.jpg">
+<img src="doc/profile-mockup-m1.png">
 
 ### About Us Page
 - Information about the team and our overall message
