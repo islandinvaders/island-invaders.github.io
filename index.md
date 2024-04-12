@@ -42,14 +42,14 @@ Invasive species pose a significant threat to local ecosystems, causing ecologic
 ### Landing Page
 - Welcome users and provide an overview of the project and goals
 
-<img src="doc/landing_page.jpg">
+<img src="doc/landing-page-mockup.png">
 
   - Click on the “Login” button in the upper right corner of the navbar, then select “Sign in” to go to the following page and login. You will have an option to select "Sign Up" and register as a new user.
 
 ### Posts Page
 - See the verified reports created
 
-<img src="doc/post.jpg">
+<img src="doc/posts-mockup.png">
 
   - Picture/Entries Upload (example: Photo, Date, Species, Location and Island): Users can upload and create data entries
   - Edit Entries (example: modify information)
