@@ -73,10 +73,11 @@ Invasive species pose a significant threat to local ecosystems, causing ecologic
 
 ### Educational Resources Page
 - Carefully curated content such as articles, videos, or infographics to help educate users about invasive species
-
-<img src="doc/resources.jpg">
-
 - Database of Known Invasive Species: An organized database of invasive species, including information such as identification tips, distribution maps, ecological impacts
+
+<img src="doc/resources_m1.png">
+<img src="doc/resources_m1_2.png">
+
 
 ## Beyond Basics (Possibly Ambitious)
 - Make data entries exportable as an Excel Spreadsheet (csv) so that researchers can easily work with the data
