@@ -47,7 +47,7 @@ Invasive species pose a significant threat to local ecosystems, causing ecologic
   - Click on the “Login” button in the upper right corner of the navbar, then select “Sign in” to go to the following page and login. You will have an option to select "Sign Up" and register as a new user.
 
 ### Posts Page
-- Discussion board for users
+- See the verified reports created
 
 <img src="doc/post.jpg">
 
@@ -66,7 +66,7 @@ Invasive species pose a significant threat to local ecosystems, causing ecologic
 ### About Us Page
 - Information about the team and our overall message
 
-<img src="doc/about_us.jpg">
+<img src="doc/about-us-mockup-m1.png">
 
 ### Educational Resources Page
 - Carefully curated content such as articles, videos, or infographics to help educate users about invasive species
@@ -85,6 +85,7 @@ Invasive species pose a significant threat to local ecosystems, causing ecologic
 This project is developed in a series of milestones:
 
 - [M1](https://github.com/orgs/islandinvaders/projects/2)
+- [M2](https://github.com/orgs/islandinvaders/projects/3)
 
 
 ## About the Team
