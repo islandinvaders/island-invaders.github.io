@@ -15,6 +15,7 @@
 * [Pages](#pages)
 * [Beyond Basics](#beyond-basics-possibly-ambitious)
 * [Development History](#development-history)
+* [Deployment](#deployment)
 * [About the Team](#about-the-team)
 
 ## Overview
@@ -91,6 +92,8 @@ This project is developed in a series of milestones:
 - [M1](https://github.com/orgs/islandinvaders/projects/2)
 - [M2](https://github.com/orgs/islandinvaders/projects/3)
 
+## Deployment
+Here is our deployed application running on [Digital Ocean](http://64.23.200.75/).
 
 ## About the Team
 
