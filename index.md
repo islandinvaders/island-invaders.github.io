@@ -71,7 +71,7 @@ After clicking "About Us" in the navigation bar, users are taken to the About Us
 ### Educational Resources Page
 After clicking "Educational Resources" in the navigation bar, users are taken to the Educational Resources page which provides carefully curated content such as articles, videos, or infographics to help educate users about invasive species. The page also displays a 'Imi Invasives' Database of Known Invasive Species which is an organized database of invasive species, including information such as identification tips, distribution maps, ecological impacts
 
-<img src="doc/resources_m1.png">
+<img src="doc/resources-new.png">
 <img src="doc/resources_m1_2.png">
 
 
