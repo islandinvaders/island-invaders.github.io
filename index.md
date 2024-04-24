@@ -58,10 +58,15 @@ After clicking "Posts" in the navigation bar, the Posts page displays the verifi
 
 <img src="doc/posts-new.png">
 
-### Profile Page
-After clicking "Profiles" in the navigation bar, users are taken to the Profiles page. This presents a view only profile which the user can see their profile data such as first name, last name, email, biography, and interests. There is also an "Edit Profile" button that allows users to edit their profiles and change their information when needed.
+### Edit Profile Page
+After clicking "Edit Profiles" in the navigation bar, users are taken to the Profiles page. This presents a view only profile which the user can see their profile data such as first name, last name, email, biography, and interests.  There are two buttons: "List Profiles" and "Save Changes" also a "Save Changes". The "Save Changes" button allows users to save any changes made. The "List Profiles Button" allows you to view all profiles.
 
 <img src="doc/profile-new.png">
+
+### List Profiles Page
+After clicking the "List Profiles" button, users are taken to the List Profiles page. This page displays all the profiles of users who have signed up for the app.
+
+<img src="doc/list-profiles-new.png">
 
 ### About Us Page
 After clicking "About Us" in the navigation bar, users are taken to the About Us page which provides information about the team and the project's overall message.
