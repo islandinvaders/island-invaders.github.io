@@ -154,69 +154,7 @@ Then, in another console window, start up the end-to-end tests with:
 meteor npm run testcafe
 ```
 
-You will see browser windows appear and disappear as the tests run.  If the tests finish successfully, you should see the following in your second console window:
-
-```
-$ meteor npm run testcafe
-
-> bowfolios@ testcafe /Users/philipjohnson/github/bowfolios/bowfolios/app
-> testcafe chrome tests/*.testcafe.js
-
- Running tests in:
- - Chrome 86.0.4240.111 / macOS 10.15.7
-
- Bowfolios localhost test with default db
- ✓ Test that landing page shows up
- ✓ Test that signin and signout work
- ✓ Test that signup page, then logout works
- ✓ Test that profiles page displays
- ✓ Test that interests page displays
- ✓ Test that projects page displays
- ✓ Test that home page display and profile modification works
- ✓ Test that addProject page works
- ✓ Test that filter page works
-
-
- 9 passed (40s)
-
- $
-```
-
-You can also run the testcafe tests in "continuous integration mode".  This mode is appropriate when you want to run the tests using a continuous integration service like Jenkins, Semaphore, CircleCI, etc.  In this case, it is problematic to already have the server running in a separate console, and you cannot have the browser window appear and disappear.
-
-To run the testcafe tests in continuous integration mode, first ensure that ‘Imi Invasive is not running in any console.
-
-Then, invoke `meteor npm run testcafe-ci`.  You will not see any windows appear.  When the tests finish, the console should look like this:
-
-```
-$ meteor npm run testcafe-ci
-
-> @ testcafe-ci /Users/philipjohnson/github/bowfolios/bowfolios/app
-> testcafe chrome:headless tests/*.testcafe.js -q --app "meteor npm run start"
-
- Running tests in:
- - Chrome 86.0.4240.111 / macOS 10.15.7
-
- Bowfolios localhost test with default db
- ✓ Test that landing page shows up (unstable)
- ✓ Test that signin and signout work
- ✓ Test that signup page, then logout works
- ✓ Test that profiles page displays
- ✓ Test that interests page displays
- ✓ Test that projects page displays
- ✓ Test that home page display and profile modification works
- ✓ Test that addProject page works
- ✓ Test that filter page works
-
-
- 9 passed (56s)
-
-$
-```
-
-All the tests pass, but the first test is marked as "unstable". At the time of writing, TestCafe fails the first time it tries to run a test in this mode, but subsequent attempts run normally. To prevent the test run from failing due to this problem with TestCafe, we enable [testcafe quarantine mode](https://devexpress.github.io/testcafe/documentation/guides/basic-guides/run-tests.html#quarantine-mode).
-
-The only impact of quarantine mode should be that the first test is marked as "unstable".
+You will see browser windows appear and disappear as the tests run.
 
 ## From mockup to production
 
@@ -230,7 +168,7 @@ The only impact of quarantine mode should be that the first test is marked as "u
 
 ## Continuous Integration
 
-![ci-badge](https://github.com/bowfolios/bowfolios/workflows/ci-bowfolios/badge.svg)
+![ci-badge](https://github.com/islandinvaders/imi-invasive/workflows/imi-invasive/badge.svg)
 
 ‘Imi Invasive uses [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) to automatically run ESLint and TestCafe each time a commit is made to the default branch.  You can see the results of all recent "workflows" at [https://github.com/islandinvaders/imi-invasive/actions](https://github.com/islandinvaders/imi-invasive/actions).
 
