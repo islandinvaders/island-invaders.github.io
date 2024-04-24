@@ -51,7 +51,7 @@ The landing page is presented to users when they visit the top-level URL to the 
 
 Click on the “Login” button in the upper right corner of the navbar, then select “Sign in” to go to the following page and login. You will have an option to select "Sign Up" and register as a new user.
 
-<img src="doc/landing-page-mockup.png">
+<img src="doc/landing-new.png">
 
 ### Posts Page
 After clicking "Posts" in the navigation bar, the Posts page displays the verified invasive species reports made by the community. Click on the toggle button to switch between viewing verified posts and only posts created by the user. Click on the download button to download a csv file of all verified reports made by users on the site.
