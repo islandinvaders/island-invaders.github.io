@@ -61,7 +61,7 @@ After clicking "Posts" in the navigation bar, the Posts page displays the verifi
 ### Profile Page
 After clicking "Profiles" in the navigation bar, users are taken to the Profiles page. This presents a view only profile which the user can see their profile data such as first name, last name, email, biography, and interests. There is also an "Edit Profile" button that allows users to edit their profiles and change their information when needed.
 
-<img src="doc/profile-mockup-m1.png">
+<img src="doc/profile-new.png">
 
 ### About Us Page
 After clicking "About Us" in the navigation bar, users are taken to the About Us page which provides information about the team and the project's overall message.
