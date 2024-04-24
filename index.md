@@ -56,7 +56,7 @@ Click on the “Login” button in the upper right corner of the navbar, then se
 ### Posts Page
 After clicking "Posts" in the navigation bar, the Posts page displays the verified invasive species reports made by the community. Click on the toggle button to switch between viewing verified posts and only posts created by the user. Click on the download button to download a csv file of all verified reports made by users on the site.
 
-<img src="doc/posts-mockup.png">
+<img src="doc/posts-new.png">
 
 ### Profile Page
 After clicking "Profiles" in the navigation bar, users are taken to the Profiles page. This presents a view only profile which the user can see their profile data such as first name, last name, email, biography, and interests. There is also an "Edit Profile" button that allows users to edit their profiles and change their information when needed.
