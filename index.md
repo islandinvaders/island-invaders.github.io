@@ -18,7 +18,6 @@
 * [Developer Guide](#developer-guide)
 * [Continuous Integration](#continuous-integration)
 * [Development History](#development-history)
-* [Deployment](#deployment)
 * [About the Team](#about-the-team)
 
 ## Overview
@@ -42,9 +41,10 @@ Invasive species pose a significant threat to local ecosystems, causing ecologic
 - Researchers studying invasive species trends can analyze data collected from the platform to identify potential problems and prioritize management efforts and investment.
 
 ## Deployment
+Here is our deployed application running on [Digital Ocean](http://64.23.200.75/).
 
 ## User Guide
-This section provides a walkthrough of the Bowfolios user interface and its capabilities.
+This section provides a walkthrough of the ‘Imi Invasive user interface and its capabilities.
 
 ### Landing Page
 The landing page is presented to users when they visit the top-level URL to the site. It welcomes users and provide an overview of the project and goals.
@@ -89,9 +89,9 @@ This section provides information of interest to Meteor developers wishing to us
 
 First, [install Meteor](https://www.meteor.com/install).
 
-Second, visit the [Bowfolios application github page](https://github.com/bowfolios/bowfolios), and click the "Use this template" button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo.  However you do it, download a copy of the repo to your local computer.
+Second, visit the [Island Invaders application github page](https://github.com/islandinvaders/imi-invasive), and click the "Use this template" button to create your own repository initialized with a copy of this application. Alternatively, you can download the sources as a zip file or make a fork of the repo.  However you do it, download a copy of the repo to your local computer.
 
-Third, cd into the bowfolios/app directory and install libraries with:
+Third, cd into the imi-invasive/app directory and install libraries with:
 
 ```
 $ meteor npm install
@@ -107,37 +107,13 @@ If all goes well, the application will appear at [http://localhost:3000](http://
 
 ### Application Design
 
-Bowfolios is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in Bowfolios.
-
-### Data model
-
-As noted above, the Bowfolios data model consists of three "primary" collections (Projects, Profiles, and Interests), as well as three "join" Collections (ProfilesProjects, ProfilesInterests, and ProjectsInterests).  To understand this design choice, consider the situation where you want to specify the projects associated with a Profile.
-
-Design choice #1: Provide a field in Profile collection called "Projects", and fill it with an array of project names. This choice works great when you want to display a Profile and indicate the Projects it's associated with.  But what if you want to go the other direction: display a Project and all of the Profiles associated with it?  Then you have to do a sequential search through all of the Profiles, then do a sequential search through that array field looking for a match.  That's computationally expensive and also just silly.
-
-Design choice #2:  Provide a "join" collection where each document contains two fields: Profile name and Project name. Each entry indicates that there is a relationship between those two entities. Now, to find all the Projects associated with a Profile, just search this collection for all the documents that match the Profile, then extract the Project field. Going the other way is just as easy: to find all the Profiles associated with a Project, just search the collection for all documents matching the Project, then extract the Profile field.
-
-Bowfolios implements Design choice #2 to provide pair-wise relations between all three of its primary collections:
-
-![](images/data-model.png)
-
-The fields in boldface (Email for Profiles, and Name for Projects and Interests) indicate that those fields must have unique values so that they can be used as a primary key for that collection. This constraint is enforced in the schema definition associated with that collection.
-
-
-## Initialization
-
-The [config](https://github.com/bowfolios/bowfolios/tree/main/config) directory is intended to hold settings files.  The repository contains one file: [config/settings.development.json](https://github.com/bowfolios/bowfolios/blob/main/config/settings.development.json).
-
-This file contains default definitions for Profiles, Projects, and Interests and the relationships between them. Consult the walkthrough video for more details.
-
-The settings.development.json file contains a field called "loadAssetsFile". It is set to false, but if you change it to true, then the data in the file app/private/data.json will also be loaded.  The code to do this illustrates how to initialize a system when the initial data exceeds the size limitations for the settings file.
-
+'Imi Invasive is based upon [meteor-application-template-react](https://ics-software-engineering.github.io/meteor-application-template-react/) and [meteor-example-form-react](https://ics-software-engineering.github.io/meteor-example-form-react/). Please use the videos and documentation at those sites to better acquaint yourself with the basic application design and form processing in 'Imi Invasive.
 
 ### Quality Assurance
 
 #### ESLint
 
-BowFolios includes a [.eslintrc](https://github.com/bowfolios/bowfolios/blob/main/app/.eslintrc) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
+'Imi Invasive includes a [.eslintrc](https://github.com/islandinvaders/imi-invasive/blob/main/app/.eslintrc.js) file to define the coding style adhered to in this application. You can invoke ESLint from the command line as follows:
 
 ```
 meteor npm run lint
@@ -146,12 +122,13 @@ meteor npm run lint
 Here is sample output indicating that no ESLint errors were detected:
 
 ```
-$ meteor npm run lint
+PS C:\Users\Lily\Desktop\ICS_UHMAN\ICS314\GitHub\imi-invasive\app> npm run lint 
 
-> bowfolios@ lint /Users/philipjohnson/github/bowfolios/bowfolios/app
-> eslint --quiet --ext .jsx --ext .js ./imports ./tests
+> meteor-application-template-react@ lint C:\Users\Lily\Desktop\ICS_UHMAN\ICS314\GitHub\imi-invasive\app
+> eslint --quiet --ext .jsx --ext .js ./imports && eslint --quiet --ext .js ./tests   
 
-$
+PS C:\Users\Lily\Desktop\ICS_UHMAN\ICS314\GitHub\imi-invasive\app> 
+
 ```
 
 ESLint should run without generating any errors.
@@ -160,11 +137,11 @@ It's significantly easier to do development with ESLint integrated directly into
 
 #### End to End Testing
 
-BowFolios uses [TestCafe](https://devexpress.github.io/testcafe/) to provide automated end-to-end testing.
+'Imi Invasive uses [TestCafe](https://devexpress.github.io/testcafe/) to provide automated end-to-end testing.
 
-The BowFolios end-to-end test code employs the page object model design pattern.  In the [bowfolios tests/ directory](https://github.com/bowfolios/bowfolios/tree/main/app/tests), the file [tests.testcafe.js](https://github.com/bowfolios/bowfolios/blob/main/app/tests/tests.testcafe.js) contains the TestCafe test definitions. The remaining files in the directory contain "page object models" for the various pages in the system (i.e. Home, Landing, Interests, etc.) as well as one component (navbar). This organization makes the test code shorter, easier to understand, and easier to debug.
+The 'Imi Invasive end-to-end test code employs the page object model design pattern.  In the [imi-invasive tests/ directory](https://github.com/islandinvaders/imi-invasive/tree/main/app/tests), the file [tests.testcafe.js](https://github.com/islandinvaders/imi-invasive/tree/main/app/tests/tests.testcafe.js) contains the TestCafe test definitions. The remaining files in the directory contain "page object models" for the various pages in the system (i.e. Home, Landing, Interests, etc.) as well as one component (navbar). This organization makes the test code shorter, easier to understand, and easier to debug.
 
-To run the end-to-end tests in development mode, you must first start up a BowFolios instance by invoking `meteor npm run start` in one console window.
+To run the end-to-end tests in development mode, you must first start up a ‘Imi Invasive instance by invoking `meteor npm run start` in one console window.
 
 Then, in another console window, start up the end-to-end tests with:
 
@@ -202,14 +179,14 @@ $ meteor npm run testcafe
 
 You can also run the testcafe tests in "continuous integration mode".  This mode is appropriate when you want to run the tests using a continuous integration service like Jenkins, Semaphore, CircleCI, etc.  In this case, it is problematic to already have the server running in a separate console, and you cannot have the browser window appear and disappear.
 
-To run the testcafe tests in continuous integration mode, first ensure that BowFolios is not running in any console.
+To run the testcafe tests in continuous integration mode, first ensure that ‘Imi Invasive is not running in any console.
 
 Then, invoke `meteor npm run testcafe-ci`.  You will not see any windows appear.  When the tests finish, the console should look like this:
 
 ```
 $ meteor npm run testcafe-ci
 
-> bowfolios@ testcafe-ci /Users/philipjohnson/github/bowfolios/bowfolios/app
+> @ testcafe-ci /Users/philipjohnson/github/bowfolios/bowfolios/app
 > testcafe chrome:headless tests/*.testcafe.js -q --app "meteor npm run start"
 
  Running tests in:
@@ -238,7 +215,7 @@ The only impact of quarantine mode should be that the first test is marked as "u
 
 ## From mockup to production
 
-Bowfolios is meant to illustrate the use of Meteor for developing an initial proof-of-concept prototype.  For a production application, several additional security-related changes must be implemented:
+‘Imi Invasive is meant to illustrate the use of Meteor for developing an initial proof-of-concept prototype.  For a production application, several additional security-related changes must be implemented:
 
 * Use of email-based password specification for users, and/or use of an alternative authentication mechanism.
 * Use of https so that passwords are sent in encrypted format.
@@ -250,7 +227,7 @@ Bowfolios is meant to illustrate the use of Meteor for developing an initial pro
 
 ![ci-badge](https://github.com/bowfolios/bowfolios/workflows/ci-bowfolios/badge.svg)
 
-BowFolios uses [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) to automatically run ESLint and TestCafe each time a commit is made to the default branch.  You can see the results of all recent "workflows" at [https://github.com/islandinvaders/imi-invasive/actions](https://github.com/islandinvaders/imi-invasive/actions).
+‘Imi Invasive uses [GitHub Actions](https://docs.github.com/en/free-pro-team@latest/actions) to automatically run ESLint and TestCafe each time a commit is made to the default branch.  You can see the results of all recent "workflows" at [https://github.com/islandinvaders/imi-invasive/actions](https://github.com/islandinvaders/imi-invasive/actions).
 
 The workflow definition file is quite simple and is located at
 [.github/workflows/ci.yml](https://github.com/islandinvaders/imi-invasive/blob/main/.github/workflows/ci.yml).
@@ -261,9 +238,6 @@ This project is developed in a series of milestones:
 - [M1](https://github.com/orgs/islandinvaders/projects/2) (completed)
 - [M2](https://github.com/orgs/islandinvaders/projects/3) (completed)
 - [M3](https://github.com/orgs/islandinvaders/projects/6) (in progress)
-
-## Deployment
-Here is our deployed application running on [Digital Ocean](http://64.23.200.75/).
 
 ## About the Team
 
