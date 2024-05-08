@@ -41,7 +41,7 @@ Invasive species pose a significant threat to local ecosystems, causing ecologic
 - Researchers studying invasive species trends can analyze data collected from the platform to identify potential problems and prioritize management efforts and investment.
 
 ## Deployment
-Here is our deployed application running on [Digital Ocean](http://64.23.200.75/).
+Here is our deployed application running on [Digital Ocean](https://imi-invasive.me/).
 
 ## User Guide
 This section provides a walkthrough of the ‘Imi Invasive user interface and its capabilities.
@@ -74,7 +74,7 @@ After clicking "About Us" in the navigation bar, users are taken to the About Us
 <img src="doc/about-us-mockup-m1.png">
 
 ### Educational Resources Page
-After clicking "Educational Resources" in the navigation bar, users are taken to the Educational Resources page which provides carefully curated content such as articles, videos, or infographics to help educate users about invasive species. The page also displays a 'Imi Invasives' Database of Known Invasive Species which is an organized database of invasive species, including information such as identification tips, distribution maps, ecological impacts
+The page displays an 'Imi Invasives' Database of Known Invasive Species which is an organized database of invasive species, including information such as identification tips, distribution maps, ecological impacts
 
 <img src="doc/resources-new.png">
 <img src="doc/resources_m1_2.png">
