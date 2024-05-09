@@ -17,6 +17,7 @@
 * [Beyond Basics](#beyond-basics-possibly-ambitious)
 * [Developer Guide](#developer-guide)
 * [Continuous Integration](#continuous-integration)
+* [Feedback](#feedback)
 * [Development History](#development-history)
 * [About the Team](#about-the-team)
 
@@ -60,9 +61,10 @@ After clicking "Posts" in the navigation bar, the Posts page displays the verifi
 <img src="doc/posts.png">
 
 User Options:
+<img src="doc/user-posts.png" width="250px">
 
 Admin Options:
-<img src="doc/admin-post.png">
+<img src="doc/admin-post.png" width="250px">
 
 ### Edit Profile Page
 After clicking "Edit Profiles" in the navigation bar, users are taken to the Profiles page. This presents a view only profile which the user can see their profile data such as first name, last name, email, biography, and interests.  There are two buttons: "List Profiles" and "Save Changes" also a "Save Changes". The "Save Changes" button allows users to save any changes made. The "List Profiles Button" allows you to view all profiles.
@@ -72,10 +74,12 @@ After clicking "Edit Profiles" in the navigation bar, users are taken to the Pro
 ### List Profiles Page
 After clicking the "List Profiles" button, users are taken to the List Profiles page. This page displays all the profiles of users who have signed up for the app.
 
-<img src="doc/profiles.png">
+<img src="doc/profiles.png" width="250px">
+
+<img src="doc/all-prof.png">
 
 Admin Options:
-<img src="doc/admin-post.png">
+<img src="doc/admin-profiles.png">
 
 ### About Us Page
 After clicking "About Us" in the navigation bar, users are taken to the About Us page which provides information about the team and the project's overall message.
@@ -191,6 +195,23 @@ This project is developed in a series of milestones:
 - [M1](https://github.com/orgs/islandinvaders/projects/2) (completed)
 - [M2](https://github.com/orgs/islandinvaders/projects/3) (completed)
 - [M3](https://github.com/orgs/islandinvaders/projects/6) (completed)
+
+## Feedback
+Here is some feedback we've received from surveying other students at UHM.
+
+Feedback we decided to add prior to project submission:
+
+- Separate and move the edit profile and view profile to top right dropdown 
+- Isolate landing page link to logo image, not entire top bar
+- Add default image to profile cards for consistency 
+- If no posts, display “You don’t have any posts”
+- Allow user to customize which posts they download as a CSV and/or add clarity to CSV button
+
+Feedback that we are taking into consideration for the future:
+
+- Change card size of posts for consistency
+- Apply filters on invasive list page with checkboxes rather than dropdown
+- Make web pages more responsive to changing screen sizes
 
 ## About the Team
 
