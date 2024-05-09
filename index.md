@@ -56,47 +56,50 @@ Click on the “Login” button in the upper right corner, then select “Sign i
 <img src="doc/landing-2.png">
 
 ### Posts Page
-After clicking "Posts" in the navigation bar, the Posts page displays the verified invasive species reports made by the community. Click on the toggle button to switch between viewing verified posts and only posts created by the user. Click on the download button to download a csv file of all verified reports made by users on the site.
+After clicking "Posts" in the navigation bar, the Posts page displays the verified invasive species reports made by the community. Click on the toggle button to switch between viewing verified posts and only posts created by the user. Click on the <span id="csv">download button</span> to download a csv file of all verified reports made by users on the site.
 
 <img src="doc/posts.png">
 
-User Options:
-<img src="doc/user-posts.png" width="250px">
+User Options: Can delete or edit their own posts
+<img style="display:block" src="doc/user-posts.png" width="250px">
 
-Admin Options:
-<img src="doc/admin-post.png" width="250px">
+Admin Options: Can delete or edit all users posts, or just change verification status
+<img style="display:block" src="doc/admin-post.png" width="250px">
+
+### List Profiles Page
+After clicking the dropdown button and choosing "View All Profiles" below the user's name in the top-right corner users can visit the "List Profiles" page. This page displays all the profiles of users who have signed up for the app.
+
+Dropdown:
+<img style="display:block" src="doc/profiles.png" width="250px">
+
+User View:
+<img style="display:block" src="doc/all-prof.png">
+
+Admin View: Can delete any user profile
+<img style="display:block" src="doc/admin-all-prof.png">
 
 ### Edit Profile Page
-After clicking "Edit Profiles" in the navigation bar, users are taken to the Profiles page. This presents a view only profile which the user can see their profile data such as first name, last name, email, biography, and interests.  There are two buttons: "List Profiles" and "Save Changes" also a "Save Changes". The "Save Changes" button allows users to save any changes made. The "List Profiles Button" allows you to view all profiles.
+After clicking the dropdown button and choosing "Edit Profile" option below the user's name in the top-right corner users can visit the "Edit Profile" page. This presents a way for users to edit their profile data such as profile picture, first name, last name, email, biography, and interests.
 
 <img src="doc/edit-prof.png">
 
-### List Profiles Page
-After clicking the "List Profiles" button, users are taken to the List Profiles page. This page displays all the profiles of users who have signed up for the app.
-
-<img src="doc/profiles.png" width="250px">
-
-<img src="doc/all-prof.png">
-
-Admin Options:
-<img src="doc/admin-profiles.png">
-
 ### About Us Page
-After clicking "About Us" in the navigation bar, users are taken to the About Us page which provides information about the team and the project's overall message.
+After clicking "About Us" in the navigation bar, users are taken to the About Us page which provides information about the team members and project's overall message.
 
 <img src="doc/last-about-us.png">
 
 ### Invasive Species List Page
 The page displays an 'Imi Invasives' Database of Known Invasive Species which is an organized database of invasive species, including information such as identification tips, distribution maps, ecological impacts
 
-<img src="doc/list.png">
+User View: 
+<img style="display:block" src="doc/list.png">
 
-Admin Options:
-<img src="doc/admin-list">
+Admin Options: Admins can delete or add references
+<img style="display:block" src="doc/admin-list.png">
 
 ## Beyond Basics (Possibly Ambitious)
-- Make data entries exportable as an Excel Spreadsheet (csv) so that researchers can easily work with the data
-- Further gamify it
+- <strong>[ACCOMPLISHED](#csv): </strong>Make data entries exportable as an Excel Spreadsheet (csv) so that researchers can easily work with the data 
+- Further gamify the application visuals
 - Explore the use of machine learning algorithms to improve species identification accuracy and efficiency AND/OR assess the effectiveness of implemented strategies or suggest other plans of action
 - Integrate with GIS or other map visualization
 
@@ -199,7 +202,7 @@ This project is developed in a series of milestones:
 ## Feedback
 Here is some feedback we've received from surveying other students at UHM.
 
-Feedback we decided to add prior to project submission:
+Feedback that we have implemented:
 
 - Separate and move the edit profile and view profile to top right dropdown 
 - Isolate landing page link to logo image, not entire top bar
