@@ -17,6 +17,7 @@
 * [Beyond Basics](#beyond-basics-possibly-ambitious)
 * [Developer Guide](#developer-guide)
 * [Continuous Integration](#continuous-integration)
+* [Feedback](#feedback)
 * [Development History](#development-history)
 * [About the Team](#about-the-team)
 
@@ -49,36 +50,49 @@ This section provides a walkthrough of the ‘Imi Invasive user interface and it
 ### Landing Page
 The landing page is presented to users when they visit the top-level URL to the site. It welcomes users and provide an overview of the project and goals.
 
-Click on the “Login” button in the upper right corner of the navbar, then select “Sign in” to go to the following page and login. You will have an option to select "Sign Up" and register as a new user.
+Click on the “Login” button in the upper right corner, then select “Sign in” or "Sign up" in order to have access to the following pages.
 
-<img src="doc/landing-new.png">
+<img src="doc/landing.png">
+<img src="doc/landing-2.png">
 
 ### Posts Page
 After clicking "Posts" in the navigation bar, the Posts page displays the verified invasive species reports made by the community. Click on the toggle button to switch between viewing verified posts and only posts created by the user. Click on the download button to download a csv file of all verified reports made by users on the site.
 
-<img src="doc/posts-new.png">
+<img src="doc/posts.png">
+
+User Options:
+<img src="doc/user-posts.png" width="250px">
+
+Admin Options:
+<img src="doc/admin-post.png" width="250px">
 
 ### Edit Profile Page
 After clicking "Edit Profiles" in the navigation bar, users are taken to the Profiles page. This presents a view only profile which the user can see their profile data such as first name, last name, email, biography, and interests.  There are two buttons: "List Profiles" and "Save Changes" also a "Save Changes". The "Save Changes" button allows users to save any changes made. The "List Profiles Button" allows you to view all profiles.
 
-<img src="doc/profile-new.png">
+<img src="doc/edit-prof.png">
 
 ### List Profiles Page
 After clicking the "List Profiles" button, users are taken to the List Profiles page. This page displays all the profiles of users who have signed up for the app.
 
-<img src="doc/list-profiles-new.png">
+<img src="doc/profiles.png" width="250px">
+
+<img src="doc/all-prof.png">
+
+Admin Options:
+<img src="doc/admin-profiles.png">
 
 ### About Us Page
 After clicking "About Us" in the navigation bar, users are taken to the About Us page which provides information about the team and the project's overall message.
 
-<img src="doc/about-us-mockup-m1.png">
+<img src="doc/last-about-us.png">
 
-### Educational Resources Page
+### Invasive Species List Page
 The page displays an 'Imi Invasives' Database of Known Invasive Species which is an organized database of invasive species, including information such as identification tips, distribution maps, ecological impacts
 
-<img src="doc/resources-new.png">
-<img src="doc/resources_m1_2.png">
+<img src="doc/list.png">
 
+Admin Options:
+<img src="doc/admin-list">
 
 ## Beyond Basics (Possibly Ambitious)
 - Make data entries exportable as an Excel Spreadsheet (csv) so that researchers can easily work with the data
@@ -180,7 +194,24 @@ This project is developed in a series of milestones:
 
 - [M1](https://github.com/orgs/islandinvaders/projects/2) (completed)
 - [M2](https://github.com/orgs/islandinvaders/projects/3) (completed)
-- [M3](https://github.com/orgs/islandinvaders/projects/6) (in progress)
+- [M3](https://github.com/orgs/islandinvaders/projects/6) (completed)
+
+## Feedback
+Here is some feedback we've received from surveying other students at UHM.
+
+Feedback we decided to add prior to project submission:
+
+- Separate and move the edit profile and view profile to top right dropdown 
+- Isolate landing page link to logo image, not entire top bar
+- Add default image to profile cards for consistency 
+- If no posts, display “You don’t have any posts”
+- Allow user to customize which posts they download as a CSV and/or add clarity to CSV button
+
+Feedback that we are taking into consideration for the future:
+
+- Change card size of posts for consistency
+- Apply filters on invasive list page with checkboxes rather than dropdown
+- Make web pages more responsive to changing screen sizes
 
 ## About the Team
 
